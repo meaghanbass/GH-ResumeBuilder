@@ -37,7 +37,7 @@
                 <a href="' . $this->projectLinkGithub . '" target="_blank" class="card-link git-link"><i class="fab fa-github"></i></a>
                 <a href="' . $this->projectLinkDirect . '" target="_blank" class="card-link direct-link"><i class="fas fa-external-link-alt"></i></a>';
         }
-    }
+    };
 
     // Projects
         $project1 = new Project(
@@ -76,13 +76,31 @@
             "www.projectsite.com"
         );
 
-// Work Experience Construct
-    class Job {
-        // Constructor
-        public function __construct($jobTitle, $projectSummary, $projectTools) {
-            $this->jobTitle = $jobTitle;
-            $this->projectSummary = $projectSummary;
-            $this->projectTools = $projectTools;
-        }
-    }
+// // Work Experience Construct
+//     class Job {
+//         // Constructor
+//         public function __construct($jobTitle, $jobCompany, $jobSummary, $jobBullet1) {
+//             $this->jobTitle = $jobTitle;
+//             $this->jobCompany = $jobCompany;
+//             $this->jobSummary = $jobSummary;
+//             $this->jobBullet1 = $jobBullet1;
+//         }
+
+//         public function displayJob() {
+//             echo '<h5 class="card-title">' . $this->jobTitle . '</h5>
+//                 <p class="card-text">' . $this->jobCompany . '</p>
+//                 <p class="tools">' . $this->jobSummary . '</p>
+//                 <a href="' . $this->jobBullet1 . '" target="_blank" class="card-link git-link"><i class="fab fa-github"></i></a>
+//                 <a href="#" target="_blank" class="card-link direct-link"><i class="fas fa-external-link-alt"></i></a>';
+//         }
+//     };
+
+//     // Projects
+//     $job1 = new Job(
+//         "Job One Title", 
+//         "ABC Corporation",
+//         "This is where you write a summary of the company or what you did in your position.", 
+//         "Lorem ipsum dolar sit amet.", 
+//     );
+
 ?>
