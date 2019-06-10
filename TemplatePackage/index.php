@@ -11,7 +11,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-<?php include 'variables.php'; ?>
+<?php include 'contact_variables.php'; ?>
+<?php include 'class_lib.php'; ?>
 
 <title><?php echo $contactName; ?> | <?php echo $contactTitle; ?></title>
 
@@ -85,33 +86,14 @@
                 <h3>Portfolio</h3>
             </div>
 
-            <!-- Project 1 -->
-            <div class="card w-75" >
-                <div class="card-body">
-                    <?php echo $project1->displayProject(); ?>
-                </div>
-            </div>
+            <!-- Projects -->
+            <?php
+                foreach ($projects as $project) {
+                    $project->displayProjectCard();
+                };
+            ?>
 
-            <!-- Project 2 -->
-            <div class="card mt-4 w-75" >
-                <div class="card-body">
-                    <?php echo $project2->displayProject(); ?>
-                </div>
-            </div>
-            
-            <!-- Project 3 -->
-            <div class="card mt-4 w-75" >
-                <div class="card-body">
-                    <?php echo $project3->displayProject(); ?>
-                </div>
-            </div>
 
-            <!-- Project 4 -->
-            <div class="card mt-4 w-75" >
-                <div class="card-body">
-                    <?php echo $project4->displayProject(); ?>
-                </div>
-            </div>
         </div>
 
         <!-- Page 4 Contact -->
@@ -128,9 +110,11 @@
         <div class="footer text-center pt-5">
             <h6>&copy; <?php echo date("Y"); ?> - <?php echo $contactName; ?></h6>
         </div>
-
     </div>
     <!-- End Site Wrapper -->
+
+
+
 
 </body>
 </html>

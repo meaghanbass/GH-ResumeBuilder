@@ -1,4 +1,5 @@
-<?php include 'variables.php'; ?>
+<?php include 'contact_variables.php'; ?>
+<?php include 'class_lib.php'; ?>
 
  <!-- EXPORT BUTTON -->
 <style>
@@ -607,7 +608,9 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	<p class=MsoTitle align=center style='text-align:center'><span
 	style='font-size:32.0pt;font-family:"Raleway Light",sans-serif;mso-bidi-font-family:
 	"Times New Roman \(Headings CS\)";color:black;mso-themecolor:text1;text-transform:
-	uppercase;letter-spacing:10.0pt'><?php echo $contactName; ?></span><span style='font-size:
+	uppercase;letter-spacing:10.0pt'>
+		<?php echo $contactName; ?>
+	</span><span style='font-size:
 	32.0pt;font-family:"Raleway Light",sans-serif;mso-bidi-font-family:"Times New Roman \(Headings CS\)";
 	color:#595959;mso-themecolor:text1;mso-themetint:166;text-transform:uppercase;
 	letter-spacing:10.0pt'><o:p></o:p></span></p>
@@ -694,139 +697,136 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	-->
 
 	<!-- Recent Work and projects -->
-
 		<!-- Project -->
-		<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-		115%'><strong>
-		<span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'>
-			<?php echo $project1->projectTitle; ?> 
-		</span></strong><strong><span style='font-size:9.0pt;
-		line-height:115%;font-family:"Source Sans Pro",sans-serif;mso-bidi-font-family:
-		Arial;mso-bidi-theme-font:minor-bidi;font-weight:normal;mso-bidi-font-weight:
-		bold'>|</span></strong><strong><span style='font-size:9.0pt;line-height:115%;
-		font-family:"Source Sans Pro",sans-serif;mso-bidi-font-family:Arial;mso-bidi-theme-font:
-		minor-bidi'> </span></strong><strong><i style='mso-bidi-font-style:normal'>
-		<span
-		style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi;color:#7F7F7F;
-		mso-themecolor:text1;mso-themetint:128;font-weight:normal;mso-bidi-font-weight:
-		bold'>
-			<?php echo $project1->projectLinkGithub; ?>
-		</span></i></strong><strong><span
-		style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'><o:p></o:p></span></strong></p>
-
-		<p class=MsoNoSpacing><span style='font-size:9.0pt;font-family:"Source Sans Pro",sans-serif'>
-			<?php echo $project1->projectSummary; ?>
-		<span class=Emphasis-SmallChar>(
-			<?php echo $project1->projectTools; ?>
-		)</span></span><span style='font-family:"Source Sans Pro",sans-serif'><o:p></o:p></span></p>
-
-			<!-- Line Break -->
 			<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-			115%'><strong><span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-			mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'><o:p>&nbsp;</o:p></span></strong></p>
-
-		<!-- Project -->
-		<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-		115%'><strong>
-		<span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'>
-			<?php echo $project1->projectTitle; ?> 
-		</span></strong><strong><span style='font-size:9.0pt;
-		line-height:115%;font-family:"Source Sans Pro",sans-serif;mso-bidi-font-family:
-		Arial;mso-bidi-theme-font:minor-bidi;font-weight:normal;mso-bidi-font-weight:
-		bold'>|</span></strong><strong><span style='font-size:9.0pt;line-height:115%;
-		font-family:"Source Sans Pro",sans-serif;mso-bidi-font-family:Arial;mso-bidi-theme-font:
-		minor-bidi'> </span></strong><strong><i style='mso-bidi-font-style:normal'>
-		<span
-		style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi;color:#7F7F7F;
-		mso-themecolor:text1;mso-themetint:128;font-weight:normal;mso-bidi-font-weight:
-		bold'>
-			<?php echo $project1->projectLinkGithub; ?>
-		</span></i></strong><strong><span
-		style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'><o:p></o:p></span></strong></p>
-
-		<p class=MsoNoSpacing><span style='font-size:9.0pt;font-family:"Source Sans Pro",sans-serif'>
-			<?php echo $project1->projectSummary; ?>
-		<span class=Emphasis-SmallChar>(
-			<?php echo $project1->projectTools; ?>
-		)</span></span><span style='font-family:"Source Sans Pro",sans-serif'><o:p></o:p></span></p>
-
-			<!-- Line Break -->
-			<p class=MsoNoSpacing><span style='font-family:"Source Sans Pro",sans-serif'><o:p>&nbsp;</o:p></span></p>
-
-		<!-- Project -->
-		<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-		115%'><strong>
-		<span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'>
-			<?php echo $project1->projectTitle; ?> 
-		</span></strong><strong><span style='font-size:9.0pt;
-		line-height:115%;font-family:"Source Sans Pro",sans-serif;mso-bidi-font-family:
-		Arial;mso-bidi-theme-font:minor-bidi;font-weight:normal;mso-bidi-font-weight:
-		bold'>|</span></strong><strong><span style='font-size:9.0pt;line-height:115%;
-		font-family:"Source Sans Pro",sans-serif;mso-bidi-font-family:Arial;mso-bidi-theme-font:
-		minor-bidi'> </span></strong><strong><i style='mso-bidi-font-style:normal'>
-		<span
-		style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi;color:#7F7F7F;
-		mso-themecolor:text1;mso-themetint:128;font-weight:normal;mso-bidi-font-weight:
-		bold'>
-			<?php echo $project1->projectLinkGithub; ?>
-		</span></i></strong><strong><span
-		style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'><o:p></o:p></span></strong></p>
-
-		<p class=MsoNoSpacing><span style='font-size:9.0pt;font-family:"Source Sans Pro",sans-serif'>
-			<?php echo $project1->projectSummary; ?>
-		<span class=Emphasis-SmallChar>(
-			<?php echo $project1->projectTools; ?>
-		)</span></span><span style='font-family:"Source Sans Pro",sans-serif'><o:p></o:p></span></p>
-
-			<!-- Line Break -->
-			<p class=MsoNoSpacing style='line-height:115%'><span class=MsoIntenseEmphasis><span
+			115%'><strong>
+			<span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
+			mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'>
+				<?php echo $project1->projectTitle; ?> 
+			</span></strong><strong><span style='font-size:9.0pt;
+			line-height:115%;font-family:"Source Sans Pro",sans-serif;mso-bidi-font-family:
+			Arial;mso-bidi-theme-font:minor-bidi;font-weight:normal;mso-bidi-font-weight:
+			bold'>|</span></strong><strong><span style='font-size:9.0pt;line-height:115%;
+			font-family:"Source Sans Pro",sans-serif;mso-bidi-font-family:Arial;mso-bidi-theme-font:
+			minor-bidi'> </span></strong><strong><i style='mso-bidi-font-style:normal'>
+			<span
 			style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-			font-style:normal;mso-bidi-font-style:italic'><o:p>&nbsp;</o:p></span></span></p>
+			mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi;color:#7F7F7F;
+			mso-themecolor:text1;mso-themetint:128;font-weight:normal;mso-bidi-font-weight:
+			bold'>
+				<?php echo $project1->projectLinkGithub; ?>
+			</span></i></strong><strong><span
+			style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
+			mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'><o:p></o:p></span></strong></p>
+
+			<p class=MsoNoSpacing><span style='font-size:9.0pt;font-family:"Source Sans Pro",sans-serif'>
+				<?php echo $project1->projectSummary; ?>
+			<span class=Emphasis-SmallChar>(
+				<?php echo $project1->projectTools; ?>
+			)</span></span><span style='font-family:"Source Sans Pro",sans-serif'><o:p></o:p></span></p>
+
+				<!-- Line Break -->
+				<p class=MsoNoSpacing><span style='font-family:"Source Sans Pro",sans-serif'><o:p>&nbsp;</o:p></span></p>
 
 		<!-- Project -->
-		<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-		115%'><strong>
-		<span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'>
-			<?php echo $project1->projectTitle; ?> 
-		</span></strong><strong><span style='font-size:9.0pt;
-		line-height:115%;font-family:"Source Sans Pro",sans-serif;mso-bidi-font-family:
-		Arial;mso-bidi-theme-font:minor-bidi;font-weight:normal;mso-bidi-font-weight:
-		bold'>|</span></strong><strong><span style='font-size:9.0pt;line-height:115%;
-		font-family:"Source Sans Pro",sans-serif;mso-bidi-font-family:Arial;mso-bidi-theme-font:
-		minor-bidi'> </span></strong><strong><i style='mso-bidi-font-style:normal'>
-		<span
-		style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi;color:#7F7F7F;
-		mso-themecolor:text1;mso-themetint:128;font-weight:normal;mso-bidi-font-weight:
-		bold'>
-			<?php echo $project1->projectLinkGithub; ?>
-		</span></i></strong><strong><span
-		style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'><o:p></o:p></span></strong></p>
+			<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+			115%'><strong>
+			<span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
+			mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'>
+				<?php echo $project1->projectTitle; ?> 
+			</span></strong><strong><span style='font-size:9.0pt;
+			line-height:115%;font-family:"Source Sans Pro",sans-serif;mso-bidi-font-family:
+			Arial;mso-bidi-theme-font:minor-bidi;font-weight:normal;mso-bidi-font-weight:
+			bold'>|</span></strong><strong><span style='font-size:9.0pt;line-height:115%;
+			font-family:"Source Sans Pro",sans-serif;mso-bidi-font-family:Arial;mso-bidi-theme-font:
+			minor-bidi'> </span></strong><strong><i style='mso-bidi-font-style:normal'>
+			<span
+			style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
+			mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi;color:#7F7F7F;
+			mso-themecolor:text1;mso-themetint:128;font-weight:normal;mso-bidi-font-weight:
+			bold'>
+				<?php echo $project1->projectLinkGithub; ?>
+			</span></i></strong><strong><span
+			style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
+			mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'><o:p></o:p></span></strong></p>
 
-		<p class=MsoNoSpacing><span style='font-size:9.0pt;font-family:"Source Sans Pro",sans-serif'>
-			<?php echo $project1->projectSummary; ?>
-		<span class=Emphasis-SmallChar>(
-			<?php echo $project1->projectTools; ?>
-		)</span></span><span style='font-family:"Source Sans Pro",sans-serif'><o:p></o:p></span></p>
+			<p class=MsoNoSpacing><span style='font-size:9.0pt;font-family:"Source Sans Pro",sans-serif'>
+				<?php echo $project1->projectSummary; ?>
+			<span class=Emphasis-SmallChar>(
+				<?php echo $project1->projectTools; ?>
+			)</span></span><span style='font-family:"Source Sans Pro",sans-serif'><o:p></o:p></span></p>
 
-			<!-- Line Break -->
-			<p class=MsoNoSpacing><span class=MsoIntenseEmphasis><span style='font-size:
-			9.0pt;font-family:"Source Sans Pro",sans-serif;font-style:normal;mso-bidi-font-style:
-			italic'><o:p>&nbsp;</o:p></span></span></p>
+				<!-- Line Break -->
+				<p class=MsoNoSpacing><span style='font-family:"Source Sans Pro",sans-serif'><o:p>&nbsp;</o:p></span></p>
 
-			<!-- Line Break -->
-			<p class=MsoNoSpacing><span style='font-family:"Source Sans Pro",sans-serif'><o:p>&nbsp;</o:p></span></p>
+		<!-- Project -->
+			<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+			115%'><strong>
+			<span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
+			mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'>
+				<?php echo $project1->projectTitle; ?> 
+			</span></strong><strong><span style='font-size:9.0pt;
+			line-height:115%;font-family:"Source Sans Pro",sans-serif;mso-bidi-font-family:
+			Arial;mso-bidi-theme-font:minor-bidi;font-weight:normal;mso-bidi-font-weight:
+			bold'>|</span></strong><strong><span style='font-size:9.0pt;line-height:115%;
+			font-family:"Source Sans Pro",sans-serif;mso-bidi-font-family:Arial;mso-bidi-theme-font:
+			minor-bidi'> </span></strong><strong><i style='mso-bidi-font-style:normal'>
+			<span
+			style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
+			mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi;color:#7F7F7F;
+			mso-themecolor:text1;mso-themetint:128;font-weight:normal;mso-bidi-font-weight:
+			bold'>
+				<?php echo $project1->projectLinkGithub; ?>
+			</span></i></strong><strong><span
+			style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
+			mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'><o:p></o:p></span></strong></p>
+
+			<p class=MsoNoSpacing><span style='font-size:9.0pt;font-family:"Source Sans Pro",sans-serif'>
+				<?php echo $project1->projectSummary; ?>
+			<span class=Emphasis-SmallChar>(
+				<?php echo $project1->projectTools; ?>
+			)</span></span><span style='font-family:"Source Sans Pro",sans-serif'><o:p></o:p></span></p>
+
+				<!-- Line Break -->
+				<p class=MsoNoSpacing style='line-height:115%'><span class=MsoIntenseEmphasis><span
+				style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
+				font-style:normal;mso-bidi-font-style:italic'><o:p>&nbsp;</o:p></span></span></p>
+
+		<!-- Project -->
+			<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+			115%'><strong>
+			<span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
+			mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'>
+				<?php echo $project1->projectTitle; ?> 
+			</span></strong><strong><span style='font-size:9.0pt;
+			line-height:115%;font-family:"Source Sans Pro",sans-serif;mso-bidi-font-family:
+			Arial;mso-bidi-theme-font:minor-bidi;font-weight:normal;mso-bidi-font-weight:
+			bold'>|</span></strong><strong><span style='font-size:9.0pt;line-height:115%;
+			font-family:"Source Sans Pro",sans-serif;mso-bidi-font-family:Arial;mso-bidi-theme-font:
+			minor-bidi'> </span></strong><strong><i style='mso-bidi-font-style:normal'>
+			<span
+			style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
+			mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi;color:#7F7F7F;
+			mso-themecolor:text1;mso-themetint:128;font-weight:normal;mso-bidi-font-weight:
+			bold'>
+				<?php echo $project1->projectLinkGithub; ?>
+			</span></i></strong><strong><span
+			style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
+			mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'><o:p></o:p></span></strong></p>
+
+			<p class=MsoNoSpacing><span style='font-size:9.0pt;font-family:"Source Sans Pro",sans-serif'>
+				<?php echo $project1->projectSummary; ?>
+			<span class=Emphasis-SmallChar>(
+				<?php echo $project1->projectTools; ?>
+			)</span></span><span style='font-family:"Source Sans Pro",sans-serif'><o:p></o:p></span></p>
+
+				<!-- Line Break -->
+				<p class=MsoNoSpacing><span class=MsoIntenseEmphasis><span style='font-size:
+				9.0pt;font-family:"Source Sans Pro",sans-serif;font-style:normal;mso-bidi-font-style:
+				italic'><o:p>&nbsp;</o:p></span></span></p>
+
+				<!-- Line Break -->
+				<p class=MsoNoSpacing><span style='font-family:"Source Sans Pro",sans-serif'><o:p>&nbsp;</o:p></span></p>
 
 	<!--
 	||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
