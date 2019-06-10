@@ -12,7 +12,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 <?php include 'contact_variables.php'; ?>
-<?php include 'class_lib.php'; ?>
+<?php include 'class_project.php'; ?>
 
 <title><?php echo $contactName; ?> | <?php echo $contactTitle; ?></title>
 

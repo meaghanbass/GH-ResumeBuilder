@@ -1,5 +1,5 @@
 <?php include 'contact_variables.php'; ?>
-<?php include 'class_lib.php'; ?>
+<?php include 'class_project.php'; ?>
 
  <!-- EXPORT BUTTON -->
 <style>
@@ -683,20 +683,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	<!-- Line Break -->
 	<p class=MsoNoSpacing><span style='font-family:"Source Sans Pro",sans-serif'><o:p>&nbsp;</o:p></span></p>
 
-	<!--
-	||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-	||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-	||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-	||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-	||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-	||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-	||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-	||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-	||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-	||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-	-->
-
-	<!-- Recent Work and projects -->
+	<!-- Recent Work and Projects -->
 		<!-- Project -->
 
 			<?php
@@ -704,18 +691,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
                     $project->displayProjectWord();
                 };
             ?>
-	<!--
-	||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-	||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-	||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-	||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-	||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-	||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-	||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-	||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-	||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-	||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-	-->
+	<!-- -->
 
 <!-- Section Heading - Experience -->
 	<div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;
@@ -767,6 +743,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 		<p class=MsoNoSpacing style='line-height:115%;tab-stops:right 7.5in'><strong><span
 		style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
 		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'><o:p>&nbsp;</o:p></span></strong></p>
+	<!-- -->
 
 	<!-- Experience Block -->
 		<p class=MsoNoSpacing style='line-height:115%;tab-stops:right 7.5in'><strong><span
@@ -810,69 +787,9 @@ xmlns="http://www.w3.org/TR/REC-html40">
 		<p class=MsoNoSpacing style='line-height:115%;tab-stops:right 7.5in'><strong><span
 		style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
 		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'><o:p>&nbsp;</o:p></span></strong></p>
+	<!-- -->
 
 
-	<!-- Experience Block -->
-		<p class=MsoNoSpacing style='line-height:115%;tab-stops:right 7.5in'><strong><span
-		style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'>
-			Operations &amp; Office Manager &ndash; Shirt Wholesaler, Inc.
-		<span style='mso-tab-count:1'> </span></span></strong><strong><span
-		style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi;font-weight:normal;
-		mso-bidi-font-weight:bold'>
-			May 2012 &ndash; August 2018
-		</span></strong><span
-		style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif'><o:p></o:p></span></p>
-
-		<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in;line-height:
-		115%;mso-list:l1 level1 lfo2'><![if !supportLists]><span style='font-size:9.0pt;
-		mso-bidi-font-size:11.0pt;line-height:115%;font-family:Symbol;mso-fareast-font-family:
-		Symbol;mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
-		style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		</span></span></span><![endif]><span style='font-size:9.0pt;mso-bidi-font-size:
-		11.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif'>
-			Oversaw e-commerce and office operations, managing a team of 15 direct reports.
-		<o:p></o:p></span></p>
-
-		<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in;line-height:
-		115%;mso-list:l1 level1 lfo2'><![if !supportLists]><span style='font-size:9.0pt;
-		mso-bidi-font-size:11.0pt;line-height:115%;font-family:Symbol;mso-fareast-font-family:
-		Symbol;mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
-		style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		</span></span></span><![endif]><span style='font-size:9.0pt;mso-bidi-font-size:
-		11.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif'>
-			Managed vendor relationships to create optimized fulfillment, shipping and pricing solutions.
-		<o:p></o:p></span></p>
-
-		<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in;line-height:
-		115%;mso-list:l1 level1 lfo2'><![if !supportLists]><span style='font-size:9.0pt;
-		mso-bidi-font-size:11.0pt;line-height:115%;font-family:Symbol;mso-fareast-font-family:
-		Symbol;mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
-		style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		</span></span></span><![endif]><span style='font-size:9.0pt;mso-bidi-font-size:
-		11.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif'>
-			Created efficient solutions for inter-department processes that led to significantly faster execution of repetitive tasks.
-			<o:p></o:p></span></p>
-
-		<!-- Line Break -->
-		<p class=MsoNoSpacing style='line-height:115%'><span style='font-family:"Source Sans Pro",sans-serif'><o:p>&nbsp;</o:p></span></p>
-
-		<!-- Line Break -->
-		<p class=MsoNoSpacing style='line-height:115%'><span style='font-family:"Source Sans Pro",sans-serif'><o:p>&nbsp;</o:p></span></p>
-
-		<!--
-		||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-		||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-		||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-		||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-		||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-		||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-		||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-		||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-		||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-		||||||||||||||||||||||||||||||||||||||||          ||||||||||||||||||||||||||||||||||||||||
-		-->
 
 <!-- Section Heading  Education -->
 	<div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;
@@ -948,8 +865,6 @@ mso-break-type:section-break'>
     style='mso-bidi-font-weight:normal'><span style='font-size:9.0pt;line-height:
     115%;font-family:"Source Sans Pro",sans-serif'><o:p>&nbsp;</o:p></span></b></p>
 </div>
-
-
 
 </body>
 </html>
