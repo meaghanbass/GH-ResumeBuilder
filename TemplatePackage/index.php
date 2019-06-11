@@ -13,6 +13,7 @@
 
 <?php include 'contact_variables.php'; ?>
 <?php include 'class_project.php'; ?>
+<?php include 'class_job.php'; ?>
 
 <title><?php echo $contactName; ?> | <?php echo $contactTitle; ?></title>
 

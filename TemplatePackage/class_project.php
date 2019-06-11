@@ -38,15 +38,26 @@
                     <i style="mso-bidi-font-style:normal">
 			            <span style="font-size:9.0pt;line-height:115%;font-family:Source Sans Pro,sans-serif;mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi;color:#7F7F7F;mso-themecolor:text1;mso-themetint:128;font-weight:normal;mso-bidi-font-weight:bold">'
 				             . $this->projectLinkGithub . 
-			'</span></i></strong><strong><span
-			style="font-size:9.0pt;line-height:115%;font-family:Source Sans Pro,sans-serif;
-			mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi"><o:p></o:p></span></strong></p>
+                        '</span>
+                    </i>
+                </strong>
+                <strong>
+                    <span style="font-size:9.0pt;line-height:115%;font-family:Source Sans Pro,sans-serif;mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi">
+                        <o:p></o:p>
+                    </span>
+                </strong>
+            </p>
 
 			<p class=MsoNoSpacing><span style="font-size:9.0pt;font-family:Source Sans Pro,sans-serif">'
 				 . $this->projectSummary . 
-			'<span class=Emphasis-SmallChar>&nbsp;('
-				 . $this->projectTools . 
-            ')</span></span><span style="font-family:Source Sans Pro,sans-serif"><o:p></o:p></span></p>
+			        '<span class=Emphasis-SmallChar>&nbsp;('
+				        . $this->projectTools . 
+                    ')</span>
+                    </span>
+                    <span style="font-family:Source Sans Pro,sans-serif">
+                        <o:p></o:p>
+                    </span>
+            </p>
             <p class=MsoNoSpacing><span style="font-family:Source Sans Pro,sans-serif"><o:p>&nbsp;</o:p></span></p>
             ';
         }

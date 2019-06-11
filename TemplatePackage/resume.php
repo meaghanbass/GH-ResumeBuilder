@@ -1,5 +1,6 @@
 <?php include 'contact_variables.php'; ?>
 <?php include 'class_project.php'; ?>
+<?php include 'class_job.php'; ?>
 
  <!-- EXPORT BUTTON -->
 <style>
@@ -676,8 +677,9 @@ xmlns="http://www.w3.org/TR/REC-html40">
 		<p class=MsoNoSpacing align=center style='text-align:center;border:none;
 		mso-border-bottom-alt:solid windowtext .75pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in'><b
 		style='mso-bidi-font-weight:normal'><span style='font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:"Times New Roman \(Body CS\)";letter-spacing:4.0pt'>RECENT
-		WORK &amp; PROJECTS<o:p></o:p></span></b></p>
+		mso-bidi-font-family:"Times New Roman \(Body CS\)";letter-spacing:4.0pt'>
+			RECENT WORK &amp; PROJECTS
+		<o:p></o:p></span></b></p>
 	</div>
 
 	<!-- Line Break -->
@@ -691,6 +693,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
                     $project->displayProjectWord();
                 };
             ?>
+
 	<!-- -->
 
 <!-- Section Heading - Experience -->
@@ -705,44 +708,16 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	</div>
 
 	<!-- Line Break -->
-	<p class=MsoNoSpacing align=center style='text-align:center'><b
-	style='mso-bidi-font-weight:normal'><span style='font-family:"Source Sans Pro",sans-serif'><o:p>&nbsp;</o:p></span></b></p>
+	<p class=MsoNoSpacing><span style='font-family:"Source Sans Pro",sans-serif'><o:p>&nbsp;</o:p></span></p>
 
 	<!-- Experience Block -->
-		<p class=MsoNoSpacing style='line-height:115%;tab-stops:right 7.5in'><strong><span
-		style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'>
-			Operations Manager &ndash; James Perse Enterprises 
-		<span style='mso-tab-count:1'>   </span></span></strong><strong><span
-		style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi;font-weight:normal;
-		mso-bidi-font-weight:bold'>August 2018 &ndash; Present</span></strong><span
-		style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif'><o:p></o:p></span></p>
+		
+		<?php
+			foreach ($jobs as $job) {
+				echo $job->displayJobWord();
+			};
+		?>
 
-		<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in;line-height:
-		115%;mso-list:l1 level1 lfo2'><![if !supportLists]><span style='font-size:9.0pt;
-		mso-bidi-font-size:11.0pt;line-height:115%;font-family:Symbol;mso-fareast-font-family:
-		Symbol;mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
-		style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		</span></span></span><![endif]><span style='font-size:9.0pt;mso-bidi-font-size:
-		11.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif'>
-			Manage retail operations for U.S. sector of international luxury apparel and lifestyle brand.
-		<o:p></o:p></span></p>
-
-		<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in;line-height:
-		115%;mso-list:l1 level1 lfo2'><![if !supportLists]><span style='font-size:9.0pt;
-		mso-bidi-font-size:11.0pt;line-height:115%;font-family:Symbol;mso-fareast-font-family:
-		Symbol;mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
-		style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		</span></span></span><![endif]><span style='font-size:9.0pt;mso-bidi-font-size:
-		11.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif'>
-			Ensure proper execution of all inventory shipments, audits, charge-sends, and other retail, inventory and finance related directives.
-		<o:p></o:p></span></p>
-
-		<!-- Line Break -->
-		<p class=MsoNoSpacing style='line-height:115%;tab-stops:right 7.5in'><strong><span
-		style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'><o:p>&nbsp;</o:p></span></strong></p>
 	<!-- -->
 
 	<!-- Experience Block -->
