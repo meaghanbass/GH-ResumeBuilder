@@ -12,7 +12,6 @@
 	padding: .375rem .75rem;
 	border-radius: .25rem;
 	font-size:13px;
-	line-height:18px;
 	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
  }
