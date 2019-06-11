@@ -404,7 +404,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	margin:.5in .5in .5in .5in;
 	mso-header-margin:.5in;
 	mso-footer-margin:.5in;
-	mso-columns:2 even .5in;
+	mso-columns:1 even .5in;
 	mso-paper-source:0;}
  div.WordSection2
 	{page:WordSection2;}
@@ -585,8 +585,6 @@ xmlns="http://www.w3.org/TR/REC-html40">
 </head>
 
 
-
-
 <body lang=EN-US link="#6B9F25" vlink="#8C8C8C" style='tab-interval:.5in'>
 
 <!-- DO NOT TOUCH THE NEXT 11 LINES OF PHP UNLESS YOU KNOW WHAT YOU ARE DOING - REQUIRED FOR DOWNLOAD! -->
@@ -605,241 +603,251 @@ xmlns="http://www.w3.org/TR/REC-html40">
 
 <div class=WordSection1>
 
-<!-- Resume Name Heading -->
-	<p class=MsoTitle align=center style='text-align:center'><span
-	style='font-size:32.0pt;font-family:"Raleway Light",sans-serif;mso-bidi-font-family:
-	"Times New Roman \(Headings CS\)";color:black;mso-themecolor:text1;text-transform:
-	uppercase;letter-spacing:10.0pt'>
-		<?php echo $contactName; ?>
-	</span><span style='font-size:
-	32.0pt;font-family:"Raleway Light",sans-serif;mso-bidi-font-family:"Times New Roman \(Headings CS\)";
-	color:#595959;mso-themecolor:text1;mso-themetint:166;text-transform:uppercase;
-	letter-spacing:10.0pt'><o:p></o:p></span></p>
+	<!-- Resume Name Heading -->
+		<p class=MsoTitle align=center style='text-align:center'>
+            <span style='font-size:32.0pt;font-family:"Raleway Light",sans-serif;mso-bidi-font-family:"Times New Roman \(Headings CS\)";color:black;mso-themecolor:text1;text-transform:uppercase;letter-spacing:10.0pt'>
+			    <?php echo $contactName; ?>
+		    </span>
+        </p>
 
-	<p class=MsoNoSpacing align=center style='text-align:center'><span
-	style='font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:"Source Sans Pro",sans-serif;
-	mso-bidi-font-family:"Times New Roman \(Body CS\)";letter-spacing:1.0pt;
-	mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"
-	o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"
-	stroked="f">
-	<v:stroke joinstyle="miter"/>
-	<v:formulas>
-	<v:f eqn="if lineDrawn pixelLineWidth 0"/>
-	<v:f eqn="sum @0 1 0"/>
-	<v:f eqn="sum 0 0 @1"/>
-	<v:f eqn="prod @2 1 2"/>
-	<v:f eqn="prod @3 21600 pixelWidth"/>
-	<v:f eqn="prod @3 21600 pixelHeight"/>
-	<v:f eqn="sum @0 0 1"/>
-	<v:f eqn="prod @6 1 2"/>
-	<v:f eqn="prod @7 21600 pixelWidth"/>
-	<v:f eqn="sum @8 21600 0"/>
-	<v:f eqn="prod @7 21600 pixelHeight"/>
-	<v:f eqn="sum @10 21600 0"/>
-	</v:formulas>
-	<v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
-	<o:lock v:ext="edit" aspectratio="t"/>
-	</v:shapetype><![endif]--><![if !vml]><![endif]></span>
+        <p class=MsoNoSpacing align=center style='text-align:center'><span
+		style='font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:"Source Sans Pro",sans-serif;
+		mso-bidi-font-family:"Times New Roman \(Body CS\)";letter-spacing:1.0pt;
+		mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"
+		o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"
+		stroked="f">
+		<v:stroke joinstyle="miter"/>
+		<v:formulas>
+		<v:f eqn="if lineDrawn pixelLineWidth 0"/>
+		<v:f eqn="sum @0 1 0"/>
+		<v:f eqn="sum 0 0 @1"/>
+		<v:f eqn="prod @2 1 2"/>
+		<v:f eqn="prod @3 21600 pixelWidth"/>
+		<v:f eqn="prod @3 21600 pixelHeight"/>
+		<v:f eqn="sum @0 0 1"/>
+		<v:f eqn="prod @6 1 2"/>
+		<v:f eqn="prod @7 21600 pixelWidth"/>
+		<v:f eqn="sum @8 21600 0"/>
+		<v:f eqn="prod @7 21600 pixelHeight"/>
+		<v:f eqn="sum @10 21600 0"/>
+		</v:formulas>
+		<v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+		<o:lock v:ext="edit" aspectratio="t"/>
+		</v:shapetype><![endif]--><![if !vml]><![endif]></span>
 
-<!-- Contact Bar -->
-	<span
-	style='font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:"Source Sans Pro",sans-serif;
-	mso-bidi-font-family:"Times New Roman \(Body CS\)";letter-spacing:1.0pt'></span>
-		<span style='font-size:9.0pt;
-		mso-bidi-font-size:10.0pt;font-family:"Source Sans Pro",sans-serif;mso-bidi-font-family:
-		"Times New Roman \(Body CS\)";position:relative;top:-1.5pt;mso-text-raise:1.5pt'><?php echo $contactLocation; ?> &#124; </span><span style='font-size:9.0pt;mso-bidi-font-size:10.0pt;
-		font-family:"Source Sans Pro",sans-serif;mso-bidi-font-family:"Times New Roman \(Body CS\)"'>
 
-		<span style='position:relative;top:-1.5pt;
-		mso-text-raise:1.5pt'><?php echo $contactPhone; ?> &#124; </span>
+    <!-- Contact Bar -->
+		<p class=MsoNoSpacing align=center style='text-align:center;font-size:9.0pt;mso-bidi-font-size:10.0pt; font-family:"Source Sans Pro",sans-serif;mso-bidi-font-family:"Times New Roman \(Body CS\)"'>
+            <span style='position:relative;top:-1.5pt;mso-text-raise:1.5pt'>
+                <?php echo $contactLocation; ?> &#124; 
+            </span>
 
-		<span style='position:relative;top:-1.5pt;
-		mso-text-raise:1.5pt'><?php echo $contactEmail; ?> &#124; </span>
+            <span>
+                <span style='position:relative;top:-1.5pt; mso-text-raise:1.5pt'>
+                    <?php echo $contactPhone; ?> &#124; 
+                </span>
 
-		<span style='position:relative;top:-1.5pt;
-		mso-text-raise:1.5pt'><?php echo $contactWebsite; ?> &#124; </span>
+                <span style='position:relative;top:-1.5pt; mso-text-raise:1.5pt'>
+                    <?php echo $contactEmail; ?> &#124; 
+                </span>
 
-		<span style='position:relative;top:-1.5pt;
-		mso-text-raise:1.5pt'><?php echo $contactGithubHandle; ?></span>
-	</span></p>
+                <span style='position:relative;top:-1.5pt; mso-text-raise:1.5pt'>
+                    <?php echo $contactWebsite; ?> &#124; 
+                </span>
 
-	<!-- Line Break -->
-	<p class=MsoNoSpacing align=center style='text-align:center'><span
-	style='font-family:"Source Sans Pro",sans-serif'><o:p>&nbsp;</o:p></span></p>
-
-	<!-- Line Break -->
-	<p class=MsoNoSpacing align=center style='text-align:center'><span
-	style='font-family:"Source Sans Pro",sans-serif'><o:p>&nbsp;</o:p></span></p>
-
-<!-- Section Heading - Recent Work & Projects -->
-	<div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;
-	mso-border-bottom-alt:solid windowtext .75pt;padding:0in 0in 1.0pt 0in'>
-		<p class=MsoNoSpacing align=center style='text-align:center;border:none;
-		mso-border-bottom-alt:solid windowtext .75pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in'><b
-		style='mso-bidi-font-weight:normal'><span style='font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:"Times New Roman \(Body CS\)";letter-spacing:4.0pt'>
-			RECENT WORK &amp; PROJECTS
-		<o:p></o:p></span></b></p>
-	</div>
-
-	<!-- Line Break -->
-	<p class=MsoNoSpacing><span style='font-family:"Source Sans Pro",sans-serif'><o:p>&nbsp;</o:p></span></p>
-
-	<!-- Recent Work and Projects -->
-		<!-- Project -->
-
-			<?php
-                foreach ($projects as $project) {
-                    $project->displayProjectWord();
-                };
-            ?>
-
-	<!-- -->
-
-<!-- Section Heading - Experience -->
-	<div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;
-	mso-border-bottom-alt:solid windowtext .75pt;padding:0in 0in 1.0pt 0in'>
-		<p class=MsoNoSpacing align=center style='text-align:center;border:none;
-		mso-border-bottom-alt:solid windowtext .75pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in'><b
-		style='mso-bidi-font-weight:normal'><span style='font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:"Times New Roman \(Body CS\)";letter-spacing:4.0pt'>
-			EXPERIENCE
-		<o:p></o:p></span></b></p>
-	</div>
-
-	<!-- Line Break -->
-	<p class=MsoNoSpacing><span style='font-family:"Source Sans Pro",sans-serif'><o:p>&nbsp;</o:p></span></p>
-
-	<!-- Experience Block -->
-		
-		<?php
-			foreach ($jobs as $job) {
-				echo $job->displayJobWord();
-			};
-		?>
-
-	<!-- -->
-
-	<!-- Experience Block -->
-		<p class=MsoNoSpacing style='line-height:115%;tab-stops:right 7.5in'><strong><span
-		style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'>
-			Front End Developer &ndash; Web Domain Solutions
-		<span style='mso-tab-count:1'>           </span></span></strong><strong><span
-		style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi;font-weight:normal;
-		mso-bidi-font-weight:bold'>
-			June 2015 &ndash; September 2015
-		</span></strong><span
-		style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif'><o:p></o:p></span></p>
-
-		<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in;line-height:
-		115%;mso-list:l1 level1 lfo2'><![if !supportLists]><span style='font-size:9.0pt;
-		mso-bidi-font-size:11.0pt;line-height:115%;font-family:Symbol;mso-fareast-font-family:
-		Symbol;mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
-		style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		</span></span></span><![endif]><span style='font-size:9.0pt;mso-bidi-font-size:
-		11.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif'>
-			Built and deployed front-end websites and applications within an Agile development team for mid-to-enterprise level projects.
-		<o:p></o:p></span></p>
-
-		<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in;line-height:
-		115%;mso-list:l1 level1 lfo2'><![if !supportLists]><span style='font-size:9.0pt;
-		mso-bidi-font-size:11.0pt;line-height:115%;font-family:Symbol;mso-fareast-font-family:
-		Symbol;mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
-		style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		</span></span></span><![endif]><span style='font-size:9.0pt;mso-bidi-font-size:
-		11.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif'>
-			Built websites from Photoshop mock-ups, debug and resolve website issues.
-		<o:p></o:p></span></p>
-
-		<p class=Emphasis-Small><span class=MsoIntenseEmphasis><span style='color:#6663E3;
-		mso-bidi-font-style:normal'>(
-			HTML5, CSS3, JS, MySQL, PHP, Angular, WordPress, Shopify, Bootstrap, Jira
-		)</span></span></p>
+                <span style='position:relative;top:-1.5pt; mso-text-raise:1.5pt'>
+                    <?php echo $contactGithubHandle; ?>
+                </span>
+            </span>
+        </p>
 
 		<!-- Line Break -->
-		<p class=MsoNoSpacing style='line-height:115%;tab-stops:right 7.5in'><strong><span
-		style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'><o:p>&nbsp;</o:p></span></strong></p>
-	<!-- -->
+		<p class=MsoNoSpacing align=center style='text-align:center'><span><o:p>&nbsp;</o:p></span></p>
 
+		<!-- Line Break -->
+		<p class=MsoNoSpacing align=center style='text-align:center'><span><o:p>&nbsp;</o:p></span></p>
 
+	<!-- Recent Work & Projects -->
+		<div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext .75pt;padding:0in 0in 1.0pt 0in'>
+			<p class=MsoNoSpacing align=center style='text-align:center;border:none;mso-border-bottom-alt:solid windowtext .75pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in'>
+                <b style='mso-bidi-font-weight:normal'>
+                    <span style='font-family:"Source Sans Pro",sans-serif;mso-bidi-font-family:"Times New Roman \(Body CS\)";letter-spacing:4.0pt'>
+				        RECENT WORK &amp; PROJECTS
+			            <o:p></o:p>
+                    </span>
+                </b>
+            </p>
+		</div>
 
-<!-- Section Heading  Education -->
-	<div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;
-	mso-border-bottom-alt:solid windowtext .75pt;padding:0in 0in 1.0pt 0in'>
-		<p class=MsoNoSpacing align=center style='text-align:center;border:none;
-		mso-border-bottom-alt:solid windowtext .75pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in'><b
-		style='mso-bidi-font-weight:normal'><span style='font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:"Times New Roman \(Body CS\)";letter-spacing:4.0pt'>EDUCATION<o:p></o:p></span></b></p>
-	</div>
+		<!-- Line Break -->
+		<p class=MsoNoSpacing><span><o:p>&nbsp;</o:p></span></p>
 
-	<!-- Line Break -->
-	<p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
-	text-align:center'><strong><span style='font-family:"Source Sans Pro",sans-serif;
-	mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'><o:p>&nbsp;</o:p></span></strong></p>
+		<!-- Recent Work and Projects Loop -->
+			<!-- Project -->
 
-	<!-- Education Block -->
-		<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-		115%'><strong><span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-		mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'>
-			State University of New York at Oswego
-		<o:p></o:p></span></strong></p>
-			<p class=MsoNoSpacing style='line-height:115%'><span style='font-size:9.0pt;
-			line-height:115%;font-family:"Source Sans Pro",sans-serif'>
-				Major in Economics, Minor in Business Administration
+				<?php
+					foreach ($projects as $project) {
+						$project->displayProjectWord();
+					};
+				?>
+
+		<!-- -->
+
+	<!-- Experience -->
+		<div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;mso-border-bottom-alt:solid windowtext .75pt;padding:0in 0in 1.0pt 0in'>
+			<p class=MsoNoSpacing align=center style='text-align:center;border:none;mso-border-bottom-alt:solid windowtext .75pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in'>
+                <b style='mso-bidi-font-weight:normal'>
+                    <span style='font-family:"Source Sans Pro",sans-serif; mso-bidi-font-family:"Times New Roman \(Body CS\)";letter-spacing:4.0pt'>
+				        EXPERIENCE
+			            <o:p></o:p>
+                    </span>
+                </b>
+            </p>
+		</div>
+
+		<!-- Line Break -->
+		<p class=MsoNoSpacing><span><o:p>&nbsp;</o:p></span></p>
+
+		<!-- Experience Block Loop -->
+			
+			<?php
+				foreach ($jobs as $job) {
+					echo $job->displayJobWord();
+				};
+			?>
+
+		<!-- -->
+
+		<!-- Experience Block OLD -->
+			<p class=MsoNoSpacing style='line-height:115%;tab-stops:right 7.5in'><strong><span
+			style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
+			mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'>
+				Front End Developer &ndash; Web Domain Solutions
+			<span style='mso-tab-count:1'>           </span></span></strong><strong><span
+			style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
+			mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi;font-weight:normal;
+			mso-bidi-font-weight:bold'>
+				June 2015 &ndash; September 2015
+			</span></strong><span
+			style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif'><o:p></o:p></span></p>
+
+			<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in;line-height:
+			115%;mso-list:l1 level1 lfo2'><![if !supportLists]><span style='font-size:9.0pt;
+			mso-bidi-font-size:11.0pt;line-height:115%;font-family:Symbol;mso-fareast-font-family:
+			Symbol;mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+			style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</span></span></span><![endif]><span style='font-size:9.0pt;mso-bidi-font-size:
+			11.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif'>
+				Built and deployed front-end websites and applications within an Agile development team for mid-to-enterprise level projects.
 			<o:p></o:p></span></p>
 
-	<!-- Line Break -->
-	<p class=MsoNoSpacing style='line-height:115%'><span style='font-size:9.0pt;
-	line-height:115%;font-family:"Source Sans Pro",sans-serif'><o:p>&nbsp;</o:p></span></p>
+			<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in;line-height:
+			115%;mso-list:l1 level1 lfo2'><![if !supportLists]><span style='font-size:9.0pt;
+			mso-bidi-font-size:11.0pt;line-height:115%;font-family:Symbol;mso-fareast-font-family:
+			Symbol;mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
+			style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</span></span></span><![endif]><span style='font-size:9.0pt;mso-bidi-font-size:
+			11.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif'>
+				Built websites from Photoshop mock-ups, debug and resolve website issues.
+			<o:p></o:p></span></p>
 
-	<!-- Education Block -->
-	<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-	115%'><strong><span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-	mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'>
-		Coursera &ndash; 
-	</span></strong><span
-	style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif'>
-		Front End Web Development with React Specialization
-	<b><o:p></o:p></b></span></p>
+			<p class=Emphasis-Small><span class=MsoIntenseEmphasis><span style='color:#6663E3;
+			mso-bidi-font-style:normal'>(
+				HTML5, CSS3, JS, MySQL, PHP, Angular, WordPress, Shopify, Bootstrap, Jira
+			)</span></span></p>
 
-	<!-- Education Block -->
-	<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-	115%'><strong><span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-	mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'>
-		Coursera &ndash; 
-	</span></strong><span
-	style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif'>
-		Front End JavaScript Frameworks: Angular
-	<o:p></o:p></span></p>
-
-	<!-- Education Block -->
-	<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-	115%'><strong><span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-	mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'>
-		Coursera &ndash; 
-	</span></strong><span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif'>
-		Building Web Applications in PHP
-	<strong><span style='font-family:"Source Sans Pro",sans-serif;
-	mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'><o:p></o:p></span></strong></span></p>
+			<!-- Line Break -->
+			<p class=MsoNoSpacing style='line-height:115%;tab-stops:right 7.5in'><strong><span
+			style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
+			mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'><o:p>&nbsp;</o:p></span></strong></p>
+		<!-- -->
 
 
-</span>
 
-<strong><span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-bidi-font-family:
-Arial;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:
-EN-US;mso-bidi-language:AR-SA'><br clear=all style='page-break-before:auto;
-mso-break-type:section-break'>
-</span></strong>
+	<!-- Section Heading  Education -->
+		<div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt; mso-border-bottom-alt:solid windowtext .75pt;padding:0in 0in 1.0pt 0in'>
+			<p class=MsoNoSpacing align=center style='text-align:center;border:none; mso-border-bottom-alt:solid windowtext .75pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in'>
+                <b style='mso-bidi-font-weight:normal'>
+                    <span style='font-family:"Source Sans Pro",sans-serif; mso-bidi-font-family:"Times New Roman \(Body CS\)";letter-spacing:4.0pt'>
+                        EDUCATION
+                        <o:p></o:p>
+                    </span>
+                </b>
+            </p>
+		</div>
+
+		<!-- Line Break -->
+		<p class=MsoNoSpacing><span><o:p>&nbsp;</o:p></span></p>
+
+		<!-- Education Block -->
+			<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height: 115%'>
+                <strong>
+                    <span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif; mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'>
+				        State University of New York at Oswego
+			            <o:p></o:p>
+                    </span>
+                </strong>
+            </p>
+			<p class=MsoNoSpacing style='line-height:115%'>
+                <span style='font-size:9.0pt; line-height:115%;font-family:"Source Sans Pro",sans-serif'>
+				    Major in Economics, Minor in Business Administration
+				    <o:p></o:p>
+                </span>
+            </p>
+
+		<!-- Line Break -->
+		<p class=MsoNoSpacing><span><o:p>&nbsp;</o:p></span></p>
+
+		<!-- Education Block -->
+		    <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height: 115%'>
+                <strong>
+                    <span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif; mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'>
+			            Coursera &ndash; 
+		            </span>
+                </strong>
+                <span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif'>
+			        Front End Web Development with React Specialization
+                </span>
+            </p>
+
+		<!-- Education Block -->
+		    <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height: 115%'>
+                <strong>
+                    <span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif; mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'>
+			            Coursera &ndash; 
+		            </span>
+                </strong>
+                <span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif'>
+			        Front End JavaScript Frameworks: Angular
+                </span>
+            </p>
+
+		<!-- Education Block -->
+		    <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height: 115%'>
+                <strong>
+                    <span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif; mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'>
+			            Coursera &ndash; 
+		            </span>
+                </strong>
+                <span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif'>
+			        Building Web Applications in PHP
+                </span>
+            </p>
+    </span>
+
+    <strong><span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
+	mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-bidi-font-family:
+	Arial;mso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:
+	EN-US;mso-bidi-language:AR-SA'><br clear=all style='page-break-before:auto;
+	mso-break-type:section-break'>
+	</span></strong>
 
 <div class=WordSection2>
     <p class=MsoNoSpacing style='line-height:115%;tab-stops:13.5pt'><b
     style='mso-bidi-font-weight:normal'><span style='font-size:9.0pt;line-height:
     115%;font-family:"Source Sans Pro",sans-serif'><o:p>&nbsp;</o:p></span></b></p>
 </div>
+
 
 </body>
 </html>
