@@ -11,40 +11,47 @@
 </head>
 <body>
 
-<div class="container-fluid pl-0 pr-0" style="height:100vh;">
+<div class="container-fluid pl-0 pr-0">
     <div class="navbar-custom">
-    <nav class="navbar navbar-expand-lg pt-3 pb-3 w-75 mx-auto">
-        <a class="navbar-brand pr-5 aqua fw-700" href="#">
-            Resio &nbsp;&nbsp;
-            <img src="check-form.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        </a>
-        <button class="navbar-toggler bg-dark navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-            
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link pr-4" href="#">Docs<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link pr-4" href="#">Tutorial</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle pr-4" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Blog
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
+        <nav class="navbar navbar-expand-lg pt-3 pb-3 w-75 mx-auto">
+            <a class="navbar-brand pr-5 aqua fw-700" href="#">
+                Resio &nbsp;&nbsp;
+                <img src="check-form.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            </a>
+            <button class="navbar-toggler bg-dark navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link pr-4" href="#">Docs<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link pr-4" href="#">Themes<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pr-4" href="#">Tutorial</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle pr-4" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Blog
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                        <div class="input-group">
+                                <input class="form-control py-2 border-right-0 border" type="search" placeholder="Search..." id="example-search-input">
+                                <span class="input-group-append">
+                                    <div class="input-group-text bg-white"><i class="fa fa-search"></i></div>
+                                </span>
+                            </div>
+                </form>
+            </div>
+        </nav>
     </div>
 
     <div class="jumbotron jumbotron-fluid text-center header">
@@ -52,14 +59,18 @@
             <h1 class="display-4 aqua fw-700 pb-3">Resio</h1>
             <p class="lead mt-3">A web portfolio and resume template package.</p>
             <p class="lead">Updated from a single file.</p>
-            <button type="button" class="btn btn-aqua btn-lg mt-5">Get Started</button>
-            <button type="button" class="btn btn-link btn-lg mt-5 aqua">Take the tutorial &nbsp;
-                    <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.53657 8.69699"><path d="
-                        M.18254,8.697a.18149.18149,0,0,1-.12886-.31034L4.09723,4.34126.05369.29954a.18149.18149,
-                        0,0,1,.2559-.2559L4.4838,4.21785a.18149.18149,0,0,1,0,.2559L.30958,8.648A.18149.18149,
-                        0,0,1,.18254,8.697Z
-                      " fill="currentColor"></path></svg>
-            </button>
+            <section>
+                <div class="button-container">
+                    <button type="button" class="btn btn-aqua btn-lg mt-5">Get Started</button>
+                    <button type="button" class="btn btn-link btn-lg mt-5 aqua">Take the tutorial &nbsp;
+                            <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.53657 8.69699"><path d="
+                                M.18254,8.697a.18149.18149,0,0,1-.12886-.31034L4.09723,4.34126.05369.29954a.18149.18149,
+                                0,0,1,.2559-.2559L4.4838,4.21785a.18149.18149,0,0,1,0,.2559L.30958,8.648A.18149.18149,
+                                0,0,1,.18254,8.697Z
+                            " fill="currentColor"></path></svg>
+                    </button>
+                </div>
+            </section>
         </div>
     </div>
 
@@ -71,6 +82,52 @@
             <embed src="/GH-ResumeBuilder/Meaghan-Bass-Resume.pdf#scrollbar=0" type="application/pdf" class="website-demo-inner-embed" ></object>
         </div>
     </div>
+
+    <footer>
+        <section class="text-center">
+            <div class="button-container">
+                <button type="button" class="btn btn-aqua btn-lg mt-5 mb-5">Get Started</button>
+                <button type="button" class="btn btn-link btn-lg mt-5 mb-5 aqua">Take the tutorial &nbsp;
+                        <svg height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4.53657 8.69699"><path d="
+                            M.18254,8.697a.18149.18149,0,0,1-.12886-.31034L4.09723,4.34126.05369.29954a.18149.18149,
+                            0,0,1,.2559-.2559L4.4838,4.21785a.18149.18149,0,0,1,0,.2559L.30958,8.648A.18149.18149,
+                            0,0,1,.18254,8.697Z
+                        " fill="currentColor"></path></svg>
+                </button>
+            </div>
+        </section>
+        <div class="row pb-5 justify-content-center">
+            <div class="col-auto pl-5 pr-5 pt-5 ml-5 mr-5">
+                <div class="footer-header">
+                    Docs
+                </div>
+                <div class="footer-content">
+                    <a class="footer-content-link" href="#">Installation</a>
+                    <a class="footer-content-link" href="#">Usage</a>
+                    <a class="footer-content-link" href="#">FAQ</a>
+                </div>
+                <div class="footer-header pt-3">
+                    Themes
+                </div>
+            </div>
+            <div class="col-auto pl-5 pt-5 pr-5 ml-5 mr-5">
+                <div class="footer-header">
+                    Channels
+                </div>
+                <div class="footer-content">
+                    <a class="footer-content-link" href="#">Twitter <i class="fas fa-external-link-alt"></i></a>
+                    <a class="footer-content-link" href="#">LinkedIn <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="col-auto pl-5 pt-5 pr-5 ml-5 mr-5">
+                <a class="navbar-brand pl-5 pr-5 mr-0 aqua fw-700" href="#">
+                    Resio &nbsp;&nbsp;
+                    <img src="check-form.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                </a>
+                <p class="pl-5 pr-5 mt-3">Copyright &copy; 2019 Global Web Properties</p>
+            </div>
+        </div>
+    </footer>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>

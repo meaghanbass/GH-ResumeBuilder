@@ -52,6 +52,10 @@
     color: var(--aqua);
 }
 
+.navbar-brand:hover {
+    color: var(--aqua);
+}
+
 .navbar-custom {
     background-color: #20232A;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -81,6 +85,10 @@
 }
 
 /* Gloabl Styles */
+* {
+    -moz-osx-font-smoothing: grayscale;
+}
+
 .btn-aqua {
     background-color: var(--aqua);
     color:#000;
@@ -89,6 +97,10 @@
 
 .btn-aqua:hover {
     background-color:white;
+}
+
+.button-container {
+    background-color:#282C34;
 }
 
 .website-demo {
@@ -114,6 +126,42 @@
     height:100%;
 }
 
+footer {
+    background-color:#20232a;
+}
+
+footer p {
+    color:white;
+    font-size:14px;
+    color:#999;
+}
+
+.footer-header {
+    color:#999;
+    font-size:14px;
+    font-weight:700;
+    line-height:3;
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+}
+
+.footer-content i {
+    font-size:12px;
+    vertical-align:2px;
+    color:#999;
+}
+
+.footer-content-link {
+    line-height:2;
+    display:block;
+    color:white;
+}
+
+.footer-content-link:hover {
+    text-decoration: none;
+    color: var(--aqua); 
+}
+
 @media (max-width: 980px) {
     .website-demo {
         border-radius:0px;
@@ -122,5 +170,11 @@
 
     .website-demo-inner {
         padding:15px;
+    }
+}
+
+@media (max-width: 1024px) {
+    footer .navbar-brand {
+        padding:auto;
     }
 }
