@@ -74,12 +74,14 @@
             <div class="col align-self-center text-center">
                 
                 <h3 class="pb-5">About Me</h3>
-                <div class="col-10 offset-1 col-sm-6 offset-sm-3">
+                <div class="col-12 col-sm-8 offset-sm-2">
                     <p><?php echo $aboutMe; ?></p>
                 </div>
                 
             </div>
         </div>
+
+
 
         <!-- Page 3 Portfolio -->
         <div class="row justify-content-center pt-5" id="portfolio">
