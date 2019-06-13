@@ -2,14 +2,14 @@
     
     class Job {
         
-        public function __construct($jobTitle, $jobCompany, $jobStart, $jobEnd, $jobSummary, $jobBullet, $jobTools) {
+        public function __construct($jobTitle, $jobCompany, $jobStart, $jobEnd, $jobSummary, $jobTools, $jobBullet) {
             $this->jobTitle = $jobTitle;
             $this->jobCompany = $jobCompany;
             $this->jobStart = $jobStart;
             $this->jobEnd = $jobEnd;
             $this->jobSummary = $jobSummary;
-            $this->jobBullet = $jobBullet;
             $this->jobTools = $jobTools;
+            $this->jobBullet = $jobBullet;
         }
 
         public function displayJobWord() {
@@ -106,8 +106,8 @@
             "May 2000",
             "August 2010",
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue magna, fermentum vitae malesuada congue, pellentesque vitae velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean id magna nec leo mattis elementum.", 
-            "Bullet point one",
-            ""
+            "Tools | Tools | Tools | Tools",
+            "Bullet point one"
         ),
 
         new Job(
@@ -116,8 +116,8 @@
             "May 2000",
             "August 2010",
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue magna, fermentum vitae malesuada congue, pellentesque vitae velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean id magna nec leo mattis elementum.", 
-            "Bullet point one",
-            "Tools | Tools | Tools | Tools"
+            "Tools | Tools | Tools | Tools",
+            "Bullet point one"
         ),
 
         new Job(
@@ -126,8 +126,8 @@
             "May 2000",
             "August 2010",
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue magna, fermentum vitae malesuada congue, pellentesque vitae velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean id magna nec leo mattis elementum.", 
-            "Bullet point one",
-            "Tools | Tools | Tools | Tools"
+            "Tools | Tools | Tools | Tools",
+            "Bullet point one"
         )
     );
 

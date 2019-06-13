@@ -77,7 +77,6 @@
                 <div class="col-12 col-sm-8 offset-sm-2">
                     <p><?php echo $aboutMe; ?></p>
                 </div>
-                
             </div>
         </div>
 
