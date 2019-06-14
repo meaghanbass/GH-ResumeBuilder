@@ -7,6 +7,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 <link rel="stylesheet" href="style.css">
+
+
+
 <title>Title</title>
 </head>
 <body>
@@ -16,7 +19,7 @@
         <nav class="navbar navbar-expand-lg pt-3 pb-3 w-75 mx-auto">
             <a class="navbar-brand pr-5 aqua fw-700" href="#">
                 Resio &nbsp;&nbsp;
-                <img src="check-form.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                <img src="images/check-form.svg" width="30" height="30" class="d-inline-block align-top" alt="">
             </a>
             <button class="navbar-toggler bg-dark navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -74,12 +77,52 @@
         </div>
     </div>
 
-    <div class="col-12 col-md-10 col-xl-8 offset-md-1 offset-xl-2 website-demo">
+    <!-- <div class="col-12 col-md-10 col-xl-8 offset-md-1 offset-xl-2 website-demo">
         <div class="website-demo-inner">
             <embed src="http://meaghanbass.io" class="website-demo-inner-embed">
         </div>
         <div class="website-demo-inner mt-5">
             <embed src="/GH-ResumeBuilder/Meaghan-Bass-Resume.pdf#scrollbar=0" type="application/pdf" class="website-demo-inner-embed" ></object>
+        </div>
+    </div> -->
+
+    <div class="col-12 col-md-10 offset-md-1 website-demo">
+        <div class="website-demo-header text-center">
+            Edit just a few variables here:
+        </div>
+
+        <div class="justify-content-center mx-auto embedded-code pl-3 pt-5 pb-5" style="width:510px;" id="editorjs">
+            <code>
+                $contactName = "John Doe";<br>
+                $contactTitle = "Job Title";<br>
+                $contactLocation = "Location, USA";<br>
+                $contactPhone = "888.123.4567";<br>
+                $contactEmail = "john.doe@gmail.com";<br>
+                $contactWebsite = "johndoe.com";<br>
+                $contactGithub = "https://github.com/johndoe";<br>
+                $contactGithubHandle = "johndoe";<br>
+                $contactLinkedin = "https://www.linkedin.com/in/johndoe/";<br>
+                $contactTwitter = "https://twitter.com/johndoe?lang=en";<br>
+                $contactCodepen = "https://codepen.io/johndoe/";
+            </code>
+        </div>
+
+        <div class="website-demo-header text-center">
+            To automatically populate your portfolio and resume:
+            <p>Edit your online presence and your resume from a single document.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 col-xl-6 pt-5">
+                <div class="website-demo-inner">
+                    <embed src="http://resio.meaghanbass.io" class="website-demo-inner-embed">
+                </div>
+            </div>
+            <div class="col-xs-12 col-xl-6 pt-5">
+                <div class="website-demo-inner">
+                    <embed src="/GH-ResumeBuilder/Meaghan-Bass-Resume.pdf" type="application/pdf" class="website-demo-inner-embed"></embed>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -122,7 +165,7 @@
             <div class="col-auto pl-5 pt-5 pr-5 ml-5 mr-5">
                 <a class="navbar-brand pl-5 pr-5 mr-0 aqua fw-700" href="#">
                     Resio &nbsp;&nbsp;
-                    <img src="check-form.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                    <img src="images/check-form.svg" width="30" height="30" class="d-inline-block align-top" alt="">
                 </a>
                 <p class="pl-5 pr-5 mt-3">Copyright &copy; 2019 Global Web Properties</p>
             </div>

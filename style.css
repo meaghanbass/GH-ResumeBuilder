@@ -110,7 +110,7 @@
     padding: 70px 60px;
     margin-top:90px;
     margin-bottom:90px;
-    overflow:scroll;
+    overflow:none;
 }
 
 .website-demo-header {

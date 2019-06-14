@@ -12,7 +12,7 @@
         }
 
         public function displayProjectCard() {
-            echo '<div class="card mt-4 w-75" >
+            echo '<div class="card mt-4 col-12 col-md-10 " >
                     <div class="card-body">
                         <h5 class="card-title">' . $this->projectTitle . '</h5>
                         <p class="card-text">' . $this->projectSummary . '</p>
