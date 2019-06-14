@@ -101,33 +101,33 @@
     
     $jobs = array(
         new Job(
-            "Job Title 1", 
-            "ABC Company",
-            "May 2000",
-            "August 2010",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue magna, fermentum vitae malesuada congue, pellentesque vitae velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean id magna nec leo mattis elementum.", 
-            "Tools | Tools | Tools | Tools",
-            "Bullet point one"
+            "Software Engineer", 
+            "ETrade Financial",
+            "July 2012",
+            "Present",
+            "Main responsibilities include customer service systems.", 
+            "MySQL | Oracle | Access | SAP",
+            "Developed and implemented new feedback system for users' concers, bugs, and defect tracking regarding use and functionality of new interfaces."
         ),
 
         new Job(
-            "Job Title 2", 
-            "ABC Company 2",
-            "May 2000",
-            "August 2010",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue magna, fermentum vitae malesuada congue, pellentesque vitae velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean id magna nec leo mattis elementum.", 
-            "Tools | Tools | Tools | Tools",
-            "Bullet point one"
+            "Sytems Programmer", 
+            "Intel Corporation",
+            "January 2008",
+            "July 2012",
+            "Focused on remote servers and SSL product analysis.", 
+            "Java | Visual Basic | ASP | XML",
+            "Deployed and tested Remote Installation Services (RIS)-Server Installs on Windows XP."
         ),
 
         new Job(
-            "Job Title 3", 
-            "ABC Company 3",
-            "May 2000",
-            "August 2010",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed augue magna, fermentum vitae malesuada congue, pellentesque vitae velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean id magna nec leo mattis elementum.", 
-            "Tools | Tools | Tools | Tools",
-            "Bullet point one"
+            "Software Engineer", 
+            "Microsoft",
+            "May 2006",
+            "January 2008",
+            "Worked on new functionality in the 7.0 release of the Company Dynamic Sourcing Engine.", 
+            "C++ | ASP.NET | SQL Server | Tomcat",
+            "Developed C++ in Unix and Windows Visual Studio, completing project six months early."
         )
     );
 
