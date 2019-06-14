@@ -74,7 +74,7 @@
             <div class="col align-self-center text-center">
                 
                 <h3 class="pb-5">About Me</h3>
-                <div class="col-12 col-sm-8 offset-sm-2">
+                <div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
                     <p><?php echo $aboutMe; ?></p>
                 </div>
             </div>
@@ -100,7 +100,7 @@
 
         <!-- Page 4 Contact -->
         <div class="row align-items-center page" id="contact">
-            <div class="w-50 mx-auto">
+            <div class="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
                 <div class="col align-self-center text-center">
                     <h3 class="pb-5">Contact</h3>
                 </div>
