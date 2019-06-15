@@ -26,6 +26,8 @@
 	color:white !important;
 	font-size:13px;
 	line-height:18px;
+	justify-content:center;
+	display:flex;
  }
 
  a {
@@ -40,7 +42,7 @@
 </style>
 
 <form name="export-button" action="<?php echo($_SERVER['PHP_SELF']); ?>" method="post">
-  <input type="submit" name="submit_docs" value="Download Resume - PC" class="input-button" />
+  <input type="submit" name="submit_docs" value="Download Resume - PC" class="input-button" /> $nbsp;
   <a href="resume.php" download="<?php echo $contactName; ?> Resume.doc" class="input-button">Download Resume - Mac</a>
 </form>
 
@@ -397,7 +399,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-footer-margin:.5in;
 	mso-paper-source:0;}
  div.WordSection1
-	{page:WordSection1;}
+	{page:WordSection1;max-width:816px;margin-left:auto;margin-right:auto;}
  @page WordSection2
 	{size:8.5in 11.0in;
 	margin:.5in .5in .5in .5in;
