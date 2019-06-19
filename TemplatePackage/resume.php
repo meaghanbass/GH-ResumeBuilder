@@ -45,6 +45,7 @@
   <input type="submit" name="submit_docs" value="Download Resume - PC" class="input-button" /> $nbsp;
   <a href="resume.php" download="<?php echo $contactName; ?> Resume.doc" class="input-button">Download Resume - Mac</a>
 </form>
+<br><br>
 
 <!-- END EXPORT BUTTON -->
 
