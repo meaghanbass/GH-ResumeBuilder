@@ -1,0 +1,7 @@
+<?php
+
+$siteTitle = "ProDesigner";
+
+
+
+?>

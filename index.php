@@ -2,7 +2,7 @@
 
     <div class="jumbotron jumbotron-fluid text-center header">
         <div class="container pt-5 pb-5">
-            <h1 class="display-4 aqua fw-700 pb-3">Resio</h1>
+            <h1 class="display-4 aqua fw-700 pb-3"><?php echo $siteTitle; ?></h1>
             <p class="lead mt-3">A web portfolio and resume template package.</p>
             <p class="lead">Updated from a single file.</p>
             <section>

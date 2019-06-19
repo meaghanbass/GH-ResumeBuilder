@@ -41,10 +41,10 @@
             </div>
             <div class="col-auto pl-5 pt-5 pr-5 ml-5 mr-5">
                 <a class="navbar-brand pl-5 pr-5 mr-0 aqua fw-700" href="index.php">
-                    Resio &nbsp;&nbsp;
+                    <?php echo $siteTitle; ?> &nbsp;&nbsp;
                     <img src="images/check-form.svg" width="30" height="30" class="d-inline-block align-top" alt="">
                 </a>
-                <p class="pl-5 pr-5 mt-3">Copyright &copy; 2019 Global Web Properties</p>
+                <p class="pl-5 pr-5 mt-3">Copyright &copy; 2019 <?php echo $siteTitle; ?></p>
             </div>
         </div>
     </footer>

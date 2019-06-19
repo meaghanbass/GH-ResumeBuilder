@@ -10,9 +10,10 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 <link rel="stylesheet" href="style.css">
 
+<?php include 'variables.php'; ?>
 
 
-<title>Title</title>
+<title><?php echo $siteTitle; ?></title>
 </head>
 <body>
 
@@ -20,7 +21,7 @@
     <div class="navbar-custom">
         <nav class="navbar navbar-expand-lg pt-3 pb-3 w-75 mx-auto">
             <a class="navbar-brand pr-5 aqua fw-700" href="index.php">
-                ProGen &nbsp;&nbsp;
+                <?php echo $siteTitle; ?> &nbsp;&nbsp;
                 <img src="images/check-form.svg" width="30" height="30" class="d-inline-block align-top" alt="">
             </a>
             <button class="navbar-toggler bg-dark navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,18 +39,15 @@
                     <li class="nav-item">
                         <a class="nav-link pr-4" href="tutorial.php">Tutorial</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link pr-4" href="#">Blog</a>
-                    </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
+                <!-- <form class="form-inline my-2 my-lg-0">
                         <div class="input-group">
                                 <input class="form-control py-2 border-right-0 border" type="search" placeholder="Search..." id="example-search-input">
                                 <span class="input-group-append">
                                     <div class="input-group-text bg-white"><i class="fa fa-search"></i></div>
                                 </span>
                             </div>
-                </form>
+                </form> -->
             </div>
         </nav>
     </div>
