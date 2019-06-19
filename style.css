@@ -73,6 +73,11 @@
     color:white;
 }
 
+.hero-svg {
+    width:300px;
+    margin-left:calc(50% - 150px);
+}
+
 .lead {
     font-size:30px;
     line-height:35px;
@@ -156,6 +161,16 @@ footer p {
     line-height:3;
     text-transform:uppercase;
     letter-spacing:0.08em;
+}
+
+.footer-header a {
+    color:#999;
+    font-size:14px;
+    font-weight:700;
+    line-height:3;
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    text-decoration: none;
 }
 
 .footer-content i {
