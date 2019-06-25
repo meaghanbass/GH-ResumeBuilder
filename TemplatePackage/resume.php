@@ -645,7 +645,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
             </span>
 
             <span>
-                <span style='position:relative;top:-1.5pt; mso-text-raise:1.5pt'>
+                <span style='position:relative;top:-1.5pt; mso-text-raise:1.5pt' class='Phone-no'>
                     <?php echo $contactPhone; ?> &#124; 
                 </span>
 
