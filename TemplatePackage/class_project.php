@@ -88,24 +88,6 @@
 
         new Project(
             "Project Title 3", 
-            "Morbi sit amet lectus tempor, iaculis enim nec, auctor lectus. Aenean scelerisque felis et ipsum dignissim congue quis et dui. Cras eleifend ut elit vitae fermentum. Nunc interdum ac ex sit amet tincidunt. Proin mattis massa eu volutpat vulputate. Vivamus quis pharetra odio, vehicula consequat leo.", 
-            "Tools | Tools | Tools | Tools", 
-            "www.projectsite.com", 
-            "www.projectsite.com", 
-            "www.projectsite.com"
-        ),
-
-        new Project(
-            "Newest Project", 
-            "Morbi sit amet lectus tempor, iaculis enim nec, auctor lectus. Aenean scelerisque felis et ipsum dignissim congue quis et dui. Cras eleifend ut elit vitae fermentum. Nunc interdum ac ex sit amet tincidunt. Proin mattis massa eu volutpat vulputate. Vivamus quis pharetra odio, vehicula consequat leo.", 
-            "Tools | Tools | Tools | Tools", 
-            "www.projectsite.com", 
-            "www.projectsite.com", 
-            "www.projectsite.com"
-        ),
-
-        new Project(
-            "Project Title 4", 
             "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean vitae dignissim neque, at mattis odio.", 
             "Tools | Tools | Tools | Tools", 
             "www.projectsite.com", 

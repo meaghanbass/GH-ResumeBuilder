@@ -711,60 +711,60 @@ xmlns="http://www.w3.org/TR/REC-html40">
 		<p class=MsoNoSpacing><span><o:p>&nbsp;</o:p></span></p>
 
 		<!-- Experience Block Loop -->
-			
 			<?php
-				foreach ($jobs as $job) {
-					echo $job->displayJobWord();
-				};
+			foreach ($jobs as $key => $job) {
+				echo '<p class=MsoNoSpacing style="line-height:115%;tab-stops:right 7.5in">
+						<strong>
+							<span style="font-size:9.0pt;line-height:115%;font-family:Source Sans Pro,sans-serif;mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi">'
+								. $job[0] . ' &ndash; ' . $job[1] . 
+							'<span style="mso-tab-count:1">
+							</span>
+							</span>
+						</strong>
+						<strong>
+							<span style="font-size:9.0pt;line-height:115%;font-family:Source Sans Pro,sans-serif;mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi;font-weight:normal;mso-bidi-font-weight:bold">'
+								. $job[2] . ' &ndash; ' . $job[3] . 
+							'</span>
+						</strong>
+						<span style="font-size:9.0pt;line-height:115%;font-family:Source Sans Pro,sans-serif">
+							<o:p></o:p>
+						</span>
+					 </p>';
+
+				if ($job[4] == true) {
+					echo '<p class=MsoNoSpacing><span style="font-size:9.0pt;font-family:Source Sans Pro,sans-serif">' . $job[4] . '</p>';
+				}
+
+				foreach ($job[6] as $key => $attr) {
+					echo '<p class=MsoNoSpacing style="margin-left:.5in;text-indent:-.25in;line-height: 115%;mso-list:l1 level1 lfo2">
+							<![if !supportLists]>
+								<span style="font-size:9.0pt; mso-bidi-font-size:11.0pt;line-height:115%;font-family:Symbol;mso-fareast-font-family: Symbol;mso-bidi-font-family:Symbol">
+									<span style="mso-list:Ignore">
+										&bull;<span style="font:7.0pt Times New Roman">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+									</span>
+								</span>
+							<![endif]>
+							<span style="font-size:9.0pt;mso-bidi-font-size: 11.0pt;line-height:115%;font-family:Source Sans Pro,sans-serif">'
+							 . $attr . 
+								'<o:p></o:p>
+							</span>
+						</p>';
+				}
+
+				if ($job[5] == true) {
+					echo '<p class=MsoNoSpacing style="margin-left:.5in;line-height: 115%;"><span style="font-size:9.0pt;font-family:Source Sans Pro,sans-serif"><span class=Emphasis-SmallChar>&nbsp;(' . $job[5] . ')</span>
+                    </span>
+                    <span style="font-family:Source Sans Pro,sans-serif">
+                        <o:p></o:p>
+                    </span>
+            		</p>';
+				}
+
+				echo '<p class=MsoNoSpacing><span><o:p>&nbsp;</o:p></span></p>';
+				
+			}
 			?>
-
 		<!-- -->
-
-		<!-- Experience Block OLD -->
-			<p class=MsoNoSpacing style='line-height:115%;tab-stops:right 7.5in'><strong><span
-			style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-			mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'>
-				Front End Developer &ndash; Web Domain Solutions
-			<span style='mso-tab-count:1'>           </span></span></strong><strong><span
-			style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-			mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi;font-weight:normal;
-			mso-bidi-font-weight:bold'>
-				June 2015 &ndash; September 2015
-			</span></strong><span
-			style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif'><o:p></o:p></span></p>
-
-			<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in;line-height:
-			115%;mso-list:l1 level1 lfo2'><![if !supportLists]><span style='font-size:9.0pt;
-			mso-bidi-font-size:11.0pt;line-height:115%;font-family:Symbol;mso-fareast-font-family:
-			Symbol;mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
-			style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			</span></span></span><![endif]><span style='font-size:9.0pt;mso-bidi-font-size:
-			11.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif'>
-				Built and deployed front-end websites and applications within an Agile development team for mid-to-enterprise level projects.
-			<o:p></o:p></span></p>
-
-			<p class=MsoNoSpacing style='margin-left:.5in;text-indent:-.25in;line-height:
-			115%;mso-list:l1 level1 lfo2'><![if !supportLists]><span style='font-size:9.0pt;
-			mso-bidi-font-size:11.0pt;line-height:115%;font-family:Symbol;mso-fareast-font-family:
-			Symbol;mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>&bull;<span
-			style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			</span></span></span><![endif]><span style='font-size:9.0pt;mso-bidi-font-size:
-			11.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif'>
-				Built websites from Photoshop mock-ups, debug and resolve website issues.
-			<o:p></o:p></span></p>
-
-			<p class=Emphasis-Small><span class=MsoIntenseEmphasis><span style='color:#6663E3;
-			mso-bidi-font-style:normal'>(
-				HTML5, CSS3, JS, MySQL, PHP, Angular, WordPress, Shopify, Bootstrap, Jira
-			)</span></span></p>
-
-			<!-- Line Break -->
-			<p class=MsoNoSpacing style='line-height:115%;tab-stops:right 7.5in'><strong><span
-			style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif;
-			mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'><o:p>&nbsp;</o:p></span></strong></p>
-		<!-- -->
-
-
 
 	<!-- Section Heading  Education -->
 		<div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt; mso-border-bottom-alt:solid windowtext .75pt;padding:0in 0in 1.0pt 0in'>
@@ -785,12 +785,10 @@ xmlns="http://www.w3.org/TR/REC-html40">
 			<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height: 115%'>
                 <strong>
                     <span style='font-size:9.0pt;line-height:115%;font-family:"Source Sans Pro",sans-serif; mso-bidi-font-family:Arial;mso-bidi-theme-font:minor-bidi'>
-				        State University of New York at Oswego
+				        State University of New York at Oswego &ndash;
 			            <o:p></o:p>
                     </span>
                 </strong>
-            </p>
-			<p class=MsoNoSpacing style='line-height:115%'>
                 <span style='font-size:9.0pt; line-height:115%;font-family:"Source Sans Pro",sans-serif'>
 				    Major in Economics, Minor in Business Administration
 				    <o:p></o:p>
